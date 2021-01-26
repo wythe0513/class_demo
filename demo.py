@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect('dbname = mydb user=postgres')
+conn = psycopg2.connect('dbname = mydb')
 
 cursor = connection.cursor()
 
